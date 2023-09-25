@@ -1,0 +1,147 @@
+.ddsmoothmenu {
+	text-align:left;
+	background-color:#60c2e9;
+}
+
+.ddsmoothmenu ul {
+	z-index:0;
+	list-style:none;
+	padding: 0px;
+	margin:0px;
+	list-style:none;
+	display:inline-table;
+}
+
+.ddsmoothmenu ul li {
+	position: relative;
+	float:left;
+	display:block;
+	padding: 0px;
+	margin:0px;
+}
+
+.ddsmoothmenu ul li a {
+	width:auto;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font-size:13px;
+	border-right:1px solid #fff;
+	padding:5px 8px;
+}
+.ddsmoothmenu ul li a:hover {
+	text-decoration:none;
+	background-color:#59bae1;
+}
+* html .ddsmoothmenu ul li a {
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited {
+}
+.ddsmoothmenu ul li a:active, .ddsmoothmenu ul li a.Selected {
+	width:auto;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font-size:13px;
+	border-right:1px solid #fff;
+	padding:5px 8px;
+	background-color:#59bae1;
+}
+
+.ddsmoothmenu ul li a.selected {
+	width:auto;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font-size:13px;
+	border-right:1px solid #fff;
+	padding:5px 8px;
+	background-color:#59bae1;
+}
+
+.ddsmoothmenu ul li ul {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	width:170px;
+	margin:0px;
+	padding:0px;
+}
+
+.ddsmoothmenu ul li ul li {
+	display: list-item;
+	float: none;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a {
+	padding:5px;
+	background-color:#60c2e9;
+	border-top:1px solid #fff;
+	color:#FFFFFF;
+	text-align:left;
+	width:160px;
+}
+/*
+.ddsmoothmenu ul li ul li:last-child a {
+	border-bottom:none;
+}
+*/
+.ddsmoothmenu ul li ul li a:hover {
+	padding:5px;
+	background-color:#59bae1;
+	border-top:1px solid #fff;
+	color:#FFFFFF;
+	text-align:left;
+	width:160px;
+}
+/*
+.ddsmoothmenu ul li ul li:last-child a:hover {
+	border-bottom:none;
+}
+*/
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:active {
+	padding:5px;
+	background-color:#59bae1;
+	border-top:1px solid #fff;
+	color:#FFFFFF;
+	text-align:left;
+	width:160px;
+}
+/*
+.ddsmoothmenu ul li ul li:last-child a.selected, .ddsmoothmenu ul li ul li:last-child a:active {
+	border-bottom:none;
+}
+*/
+* html .ddsmoothmenu {
+	height: 1%;
+}
+
+.downarrowclass {
+	position: absolute;
+	top: 14px;
+	right: 15px;
+}
+
+.rightarrowclass {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+.ddshadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 0;
+	padding-left:10px;
+}
+
+.toplevelshadow {
+	opacity: 0.8;
+}

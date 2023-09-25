@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#rewritecond %{http_host} ^lpaircon.co.uk [nc]
+#rewriterule ^(.*)$ https://test.lpaircon.co.uk/$1 [r=301,nc]
+
+RewriteRule ^page/(.*).html$ content.php?Keyword=$1
+
+RewriteRule ^products/(.*).html$ products.php?Keyword=$1
+
+RewriteRule ^product/(.*).html$ product-detail.php?Keyword=$1
+
+RewriteRule ^order/(.*).html$ order-detail.php?Keyword=$1
+
+RewriteRule ^(.*).html$ $1.php

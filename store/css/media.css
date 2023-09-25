@@ -1,0 +1,422 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  outline: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+form,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+a {
+  cursor: pointer;
+}
+.top-header {
+  background: #000;
+  overflow: hidden;
+}
+.social-media ul li {
+  float: left;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .header {
+  padding-top: 60px;
+}
+.social-media ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/social-media.png?v=101) top left no-repeat;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.social-media ul li a:hover {
+  opacity: 1;
+}
+.social-media ul li a.facebook {
+  border-left: 1px solid #333;
+}
+.social-media ul li a.facebook:hover {
+  background-position: 0px -50px;
+}
+.social-media ul li a.twitter {
+  background-position: -50px 0px;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+.social-media ul li a.twitter:hover {
+  background-position: -50px -50px;
+}
+.social-media ul li a.googleplus {
+  background-position: -100px 0px;
+  border-right: 1px solid #333;
+}
+.social-media ul li a.googleplus:hover {
+  background-position: -100px -50px;
+}
+.top-links ul li {
+  float: left;
+  display: block;
+  height: 50px;
+}
+.top-links ul li a {
+  color: #d2d2d2;
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 50px;
+  text-decoration: none;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -ms-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+}
+.top-links ul li a:hover {
+  color: #fff;
+  background: #262626;
+}
+.top-links ul li {
+  border-left: 1px solid #333;
+}
+.top-links ul li.my-cart a {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  background: url(../images/cart-icon.png?v=2) no-repeat left center;
+}
+.top-links ul li.my-cart a:hover {
+  background-color: #262626;
+}
+.logo {
+  padding: 15px 0px;
+}
+.main-categories ul li {
+  float: left;
+  border-right: 1px solid #e4e4e4;
+}
+.main-categories ul li:first-child {
+  border-left: 1px solid #e4e4e4;
+}
+.main-categories ul li a {
+  width: 100px;
+  height: 104px;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding-top: 58px;
+  background: url(../images/icons.png?v=2) no-repeat top center;
+  -webkit-transition: background 0.5s, color 0.3s;
+  -moz-transition: background 0.5s, color 0.3s;
+  -ms-transition: background 0.5s, color 0.3s;
+  -o-transition: background 0.5s, color 0.3s;
+  transition: background 0.5s, color 0.3s;
+}
+.main-categories ul li a.cakes {
+  background-position: -100px 0px;
+}
+.main-categories ul li a.cakes:hover {
+  background-position: -100px -104px;
+}
+.main-categories ul li a.flowers {
+  background-position: -300px 0px;
+}
+.main-categories ul li a.flowers:hover {
+  background-position: -300px -104px;
+}
+.main-categories ul li a.for-him {
+  background-position: -500px 0px;
+}
+.main-categories ul li a.for-him:hover {
+  background-position: -500px -104px;
+}
+.main-categories ul li a.for-her {
+  background-position: -400px 0px;
+}
+.main-categories ul li a.for-her:hover {
+  background-position: -400px -104px;
+}
+.main-categories ul li a.kids {
+  background-position: -600px 0px;
+}
+.main-categories ul li a.kids:hover {
+  background-position: -600px -104px;
+}
+.main-categories ul li a.chocolates {
+  background-position: -200px 0px;
+}
+.main-categories ul li a.chocolates:hover {
+  background-position: -200px -104px;
+}
+.main-categories ul li a.balloons {
+  background-position: 0px 0px;
+}
+.main-categories ul li a.balloons:hover {
+  background-position: 0px -104px;
+}
+.main-categories ul li a:hover {
+  background-color: #f7941d;
+  color: #fff;
+}
+.categories-list {
+  width: 280px;
+  min-height: 730px;
+  margin-right: 20px;
+  border-right: 1px dashed #f09a20;
+}
+.page-content {
+  width: 900px;
+}
+.categories-list,
+.page-content {
+  padding-bottom: 30px;
+}
+.heading {
+  border-left: 5px solid #f09a20;
+  background: url(../images/heading-bg.png?v=1) repeat-x center left;
+  margin: 20px 0px;
+}
+.heading h2 {
+  padding: 0px 5px 0px 5px;
+  background: #fff;
+  font-size: 28px;
+  display: inline-block;
+}
+.categories-list .heading {
+  background: none;
+}
+.next-prev li {
+  float: left;
+}
+.next-prev li a {
+  width: 30px;
+  height: 41px;
+  display: block;
+  background: url(../images/next-prev.png) no-repeat top left;
+}
+.next-prev li a.next {
+  background-position: -30px 0px;
+}
+.listing ul li {
+  width: 260px;
+  height: 270px;
+  display: block;
+  float: left;
+  margin: 0px 20px;
+}
+.subscription-box {
+  background: url(../images/subscription-box.png) repeat-x top left;
+  height: 110px;
+  padding: 30px 0px;
+}
+.subscription-box h2 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.subscription-box input.TextField {
+  border: none;
+  background: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+  font-size: 20px;
+  color: #000;
+  font-family: "Myriad Pro", Arial;
+  width: 300px;
+}
+.subscription-box input.Button {
+  border: none;
+  color: #fff;
+  background: #f7941d;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.subscription-box input.Button:hover {
+  background-color: #e08110;
+}
+footer {
+  background: #000;
+  padding-top: 30px;
+}
+.footer-box {
+  width: 33%;
+}
+.footer-box h2 {
+  border-left: 5px solid #f09a20;
+  color: #fff;
+  font-size: 25px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.footer-box ul {
+  margin-left: 15px;
+}
+.footer-box a,
+.footer-box li.phone {
+  color: #d2d2d2;
+  font-size: 22px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.footer-box h2 a {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.footer-box a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-box .social-media ul {
+  margin: 0px;
+}
+.footer-box .social-media ul li a {
+  border: none;
+}
+.copyright {
+  border-top: 1px solid #373737;
+  padding: 10px 0px;
+  background: #000;
+}
+.copyright,
+.copyright a {
+  color: #d2d2d2;
+  text-decoration: none;
+  font-size: 14px;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+  .container {
+    width: 99%;
+  }
+  .logo {
+    width: 25%;
+  }
+  .logo img {
+    width: 100%;
+    margin: 15px 5px 0px 5px;
+  }
+  footer .container,
+  .subscription-box .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media all and (min-width: 998px) and (max-width: 1199px) {
+  .main-content .container {
+    width: 904px;
+  }
+  .page-content {
+    width: 604px;
+  }
+  .subscription-box h2 {
+    font-size: 25px;
+  }
+}
+@media all and (min-width: 750px) and (max-width: 998px) {
+  .heading h2 {
+    font-size: 25px;
+  }
+  .container {
+    width: 100%;
+  }
+  .main-content .container {
+    width: 750px;
+  }
+  .categories-list {
+    width: 250px;
+    margin: 0px;
+  }
+  .page-content {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .subscription-box h2 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 1199px) {
+  .container {
+    width: 99%;
+  }
+  footer .container,
+  .subscription-box .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media all and (min-width: 974px) and (max-width: 1199px) {
+  .logo {
+    width: 25%;
+  }
+  .logo img {
+    width: 100%;
+    margin: 15px 5px 0px 5px;
+  }
+}

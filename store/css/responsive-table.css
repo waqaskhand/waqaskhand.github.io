@@ -1,0 +1,45 @@
+table#miyazaki { 
+	margin: 20px auto;
+	border-collapse: collapse;
+	font-weight: 100; 
+	background: #333;
+	color: #fff;
+	text-rendering: optimizeLegibility;
+	border-radius: 5px;
+	width:100%;
+}
+table#miyazaki thead th {
+	font-weight: 600;
+	text-align:left;
+}
+table#miyazaki thead th, table#miyazaki tbody td {
+	padding:5px;
+}
+table#miyazaki tbody td {
+	color: #000;
+	font-size:15px;
+	background: #eee;
+}
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+@media screen and (max-width: 700px) {
+  table#miyazaki {
+	  width:100%;
+  }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td { 
+    display: block; padding: .6rem; 
+  }
+  table#miyazaki tbody tr td:first-child { 
+    background: #666; color: #fff; 
+  }
+	table#miyazaki tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;  
+  }
+}

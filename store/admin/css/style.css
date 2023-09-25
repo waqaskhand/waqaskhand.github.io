@@ -1,0 +1,212 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+a {
+	color:#000;
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:underline;
+}
+a img {
+	border:none;
+}
+h1, h2, h3, p, form {
+	margin:0px;
+	padding:0px;
+}
+h1 {
+	font-size:25px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2 {
+	font-size:17px;
+}
+h3 {
+	font-size:15px;
+}
+p {
+	line-height:20px;
+}
+.clearfix {
+	clear:both;
+}
+.Login-Box {
+	background-color:#d8e8ee;
+	border:1px solid #60c2e9;
+	width:275px;
+	margin:0 auto;
+	margin-top:100px;
+	position:relative;
+	padding:10px 10px;
+}
+.Login-Box input[type="text"], .Login-Box input[type="password"], .Textfield, .DropDown, .TextArea {
+	width:253px;
+	padding:5px;
+	text-align:left;
+	background-color:#fff;
+	border:1px solid #000;
+}
+.TextArea {
+	height:100px;
+	width:400px;
+	overflow:auto;
+}
+.DropDown {
+	width:264px;
+}
+.Login-Box input[type="submit"], .Button {
+	padding:5px 10px;
+	border:1px solid #000;
+	background-color:#d9d8d8;
+	font-weight:bold;
+	font-size:13px;
+}
+.main-continer {
+	width:900px;
+	margin:0 auto;
+	position:relative;
+	border:1px solid #b1d9e9;
+	min-height:700px;
+	margin-bottom:10px;
+}
+.header {
+	background-color:#b1d9e9;
+	float:left;
+	width:880px;
+	padding:10px;
+}
+.heading {
+	float:left;
+}
+.heading h1 {
+	font-size:30px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.last-login {
+	float:right;
+	padding-top:20px;
+}
+.navigation {
+	background-color:#60c2e9;
+	float:left;
+	width:900px;
+	height:28px;
+}
+.navigation ul, .navigation ul li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.navigation ul li {
+	float:left;
+	padding:5px 2px;
+	line-height:20px;
+}
+.navigation ul li a {
+	color:#FFF;
+	font-weight:bold;
+}
+.Page-Data {
+	padding:10px;
+	clear:both;
+}
+.Page-Data h1 {
+	color:#60c2e9;
+}
+.NoRecord {
+	padding:10px;
+	font-style:italic;
+	font-size:13px;
+}
+.Testimonial-Box {
+	background-color:#d8e8ee;
+	border:1px solid #60c2e9;
+	margin-bottom:10px;
+}
+.Testimonial-Box strong {
+	font-size:14px;
+}
+.Testimonial-Box div.Message {
+	font-size:15px;
+	line-height:20px;
+	font-style:italic;
+}
+.Testimonial-Box a {
+	font-size:11px;
+	font-weight:normal;
+}
+.Data-Heading {
+	background-color:#d8e8ee;
+	font-weight:bold;
+}
+tr.Data-Tr:hover td {
+	background-color:#e5e5e5;
+}
+textarea.tinymce {
+	width:100%;
+	height:300px;
+}
+tr.stock-10 td {
+	background-color:#fce6e6;
+}
+tr.stock-5 td {
+	background-color:#fbcdcd;
+}
+tr.stock-0 td {
+	background-color:#fdaeae;
+}
+#colorSelector {
+    background: url("../images/select.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 30px;
+    width: 29px;
+	padding:6px 0px 0px 7px;
+}
+#colorSelector div {
+	display:block;
+	height: 23px;
+    width: 22px;
+}
+.color-box {
+	position:relative;
+	width:20px;
+	height:20px;
+	display:block;
+	margin:0 auto;
+}
+
+#uploadProgress {
+	font-size:20px;
+	padding:5px 0px;
+	text-align:center;
+	width:200px;
+	border:1px solid #000;
+	margin-bottom:20px;
+}
+.ProgressBar {
+	width:250px;
+	height:25px;
+	border:1px solid #000;
+	background:#515151;
+	display:none;
+	margin-bottom:20px;
+}
+.ProgressBg {
+	background:#000000;
+	display:block;
+	height:23px;
+	width:0%;
+}
+.PercentAge {
+	width:250px;
+	height:23px;
+	line-height:25px;
+	position:absolute;
+	color:#fff;
+	text-align:center;
+}
